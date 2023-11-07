@@ -58,12 +58,12 @@ def test_forgot_password_page(browser):
 
     def input_new_pass(new_pass):
         # browser.find_element(*NewPassLocators.NEWPASS_NEW_PASS).clear()   # почему-то не работает!!!
-        elem_new_pass.send_keys(Keys.COMMAND, 'a')
+        elem_new_pass.send_keys(Keys.CONTROL, 'a')
         elem_new_pass.send_keys(Keys.DELETE)
         elem_new_pass.send_keys(new_pass)
         time.sleep(3)
         # browser.find_element(*NewPassLocators.NEWPASS_NEW_PASS_CONFIRM).clear()
-        elem_conf_pass.send_keys(Keys.COMMAND, 'a')
+        elem_conf_pass.send_keys(Keys.CONTROL, 'a')
         elem_conf_pass.send_keys(Keys.DELETE)
         elem_conf_pass.send_keys(new_pass)
         time.sleep(3)
