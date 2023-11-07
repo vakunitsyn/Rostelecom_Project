@@ -20,7 +20,7 @@ fake_email = fake.email()
 valid_phone = os.getenv('phone')
 valid_login = os.getenv('login')
 valid_password = os.getenv('password')
-invalid_ls = '352010007897'
+invalid_ls = '809760304232'
 
 valid_email = '7zdle1j4njap@txcct.com'
 valid_pass_reg = 'CCwXaod2$2'
